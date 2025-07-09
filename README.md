@@ -1,47 +1,46 @@
-# Svelte + TS + Vite
+# 🛫 Airline Booking System - Website
+Welcome,This is one of my project **Airline Booking & Management System** — a full-featured web platform designed for **customers**, **airline staff**, and **administrators**. It supports everything from **flight booking**, **real-time flight stats**, and **crew management**, to **global announcements**, **boarding passes generation**,**scheduling and rescheduling** & **More**.
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+---
 
-## Recommended IDE Setup
+## 🌐Preview
+#Login
+![Login](https://github.com/user-attachments/assets/8aa400ef-9cfc-43e7-b34b-8e8958795fbc)
+#Search Filters
+![search](https://github.com/user-attachments/assets/fa38004a-e8e1-4666-962c-57359a53b6a4)
+#Custom Login Types
+![staff_admin](https://github.com/user-attachments/assets/0b8e7aa3-f252-4e0d-b63c-78cd4de075d9)
+#Backend Database
+![database](https://github.com/user-attachments/assets/d955ff74-b3fb-4860-a348-5db025f497a6)
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+---
 
-## Need an official Svelte framework?
+## 🚀 Features
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+- ✈️ **Flight Booking & Schedule Management**
+- 🔎 **Search Filters(One Way , Round Trip ,Multi City) With Addtional Filters Like(Class,Currency,Adult-Child-Infant-Amount)***
+- 🧑‍✈️ **Crew Monitoring & Duty Overview**
+- 📈 **Flight Status Prediction (On-time %, delays, etc.)**
+- 🌦️ **Live Weather Forecast Strip** (auto-updates every few seconds)
+- 📄 **Boarding Pass Generated As PDF for Passengers**
+- 📢 **Global Announcements System** with tagged alerts
+- 🗂️ **Dynamic Dashboard for All Roles (User/Staff/Admin)**
+- ⚡ Powered by **Amadeus API** for real-time flight insights
 
-## Technical considerations
+---
 
-**Why use this over SvelteKit?**
+## 🛠️ Tech Stack
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+### 🧩 Frontend  
+[![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)](https://svelte.dev/)  
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)  
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+### 🧪 Backend & API  
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)  
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)  
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)  
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+[![Amadeus API](https://img.shields.io/badge/Amadeus%20API-0072C6?style=for-the-badge&logo=azuredevops&logoColor=white)](https://developers.amadeus.com/)
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `allowJs` in the TS template?**
-
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+---
