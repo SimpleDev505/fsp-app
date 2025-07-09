@@ -4,14 +4,28 @@ Welcome,This is one of my project **Airline Booking & Management System** — a 
 ---
 
 ## 🌐Preview
-#Login
+
+# Login
+
 ![Login](https://github.com/user-attachments/assets/8aa400ef-9cfc-43e7-b34b-8e8958795fbc)
-#Search Filters
+
+# Search Filters
+
 ![search](https://github.com/user-attachments/assets/fa38004a-e8e1-4666-962c-57359a53b6a4)
-#Custom Login Types
+
+# Custom Login Types
+
 ![staff_admin](https://github.com/user-attachments/assets/0b8e7aa3-f252-4e0d-b63c-78cd4de075d9)
-#Backend Database
+
+# Backend Database
+
 ![database](https://github.com/user-attachments/assets/d955ff74-b3fb-4860-a348-5db025f497a6)
+
+# Preview Short Video
+
+
+https://github.com/user-attachments/assets/146382c6-6f62-4f17-bc31-366212a2803a
+
 
 ---
 
