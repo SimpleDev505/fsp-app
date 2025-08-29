@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "vite && deno run --allow-net --allow-read --allow-env src/db/userserver.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "cors": "npm:cors",
+    "jsonwebtoken": "npm:jsonwebtoken"
+  }
+}

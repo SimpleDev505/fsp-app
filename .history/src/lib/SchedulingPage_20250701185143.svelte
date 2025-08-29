@@ -1,0 +1,69 @@
+<div class="sched-wrapper">
+  <div class="sched-1">
+    <div class="sched-search">
+      <input type="text" placeholder="FlightNo" />
+      <span
+        class="material-symbols-outlined"
+        style="color: var(--blue-dark); font-weight: bold; font-size: 20px; position: absolute; margin: 20px; padding: 0;
+        right: 0;"
+      >
+        search
+      </span>
+    </div>
+  </div>
+  <div class="sched-2"></div>
+</div>
+
+<style>
+  .sched-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sched-search input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    height: fit-content;
+    outline: 3px solid var(--grey-light);
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: var(--grey-dark);
+  }
+  .sched-search input[type="text"]:focus {
+    outline: 3px solid var(--blue-dark);
+  }
+  .sched-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+  }
+  .sched-1 {
+    grid-column: 1;
+    width: 100%;
+    width: 900px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+  }
+  .sched-2 {
+    grid-column: 2;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 10px;
+  }
+</style>
